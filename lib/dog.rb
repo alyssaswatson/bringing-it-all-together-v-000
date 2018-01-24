@@ -37,10 +37,14 @@ class Dog
   end
 
   def self.find_by_name(row)
+    name = row[1]
+
 
   end
 
   def self.create(row)
-
+    dog = Dog.new(name: name, breed: breed)
+    dog.save
+    dog
   end
 end
