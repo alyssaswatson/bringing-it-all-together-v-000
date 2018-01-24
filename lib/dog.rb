@@ -60,7 +60,7 @@ class Dog
     end.first
   end
 
-  def self.create(row)
+  def self.create(id: id, name: name, breed: breed)
     dog = Dog.new(id: id, name: name, breed: breed)
     dog.save
     dog
