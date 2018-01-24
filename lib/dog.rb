@@ -28,4 +28,8 @@ class Dog
   def save
 
   end
+
+  def self.new_from_db
+
+  end
 end
