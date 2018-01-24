@@ -33,6 +33,6 @@ class Dog
     id = dog_array[0]
     name = dog_array[1]
     breed = dog_array[2]
-    self.new(id, name, breed)
+    self.new(id: id, name: name, breed: breed)
   end
 end
