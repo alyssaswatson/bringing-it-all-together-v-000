@@ -70,7 +70,7 @@ class Dog
     sql= <<-SQL
       SELECT *
       FROM dogs
-      WHERE id 
+      WHERE id
       IS ?
       LIMIT 1
     SQL
