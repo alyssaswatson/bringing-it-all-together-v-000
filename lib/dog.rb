@@ -34,6 +34,5 @@ class Dog
     name = dog_array[1]
     breed = dog_array[2]
     Dog.new(id, name, breed)
-    
   end
 end
