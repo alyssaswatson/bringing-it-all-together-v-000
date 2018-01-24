@@ -74,9 +74,10 @@ class Dog
       IS ?
       LIMIT 1
     SQL
-    DB[:conn].execute(sql,name).map do |row|
+    DB[:conn].execute(sql,id).map do |row|
       self.new_from_db(row)
-    end
+    end.first
+
   end
 
   def self.find_or_create_by(row)
