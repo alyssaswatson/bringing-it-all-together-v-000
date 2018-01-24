@@ -41,7 +41,7 @@ class Dog
       SELECT *
       FROM dogs
       WHERE name
-      IS ?
+      IS (?)
       LIMIT 1
     SQL
 
