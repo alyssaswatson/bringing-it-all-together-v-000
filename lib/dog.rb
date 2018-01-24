@@ -40,7 +40,7 @@ class Dog
 
   end
 
-  def self.create
+  def self.create(row)
 
   end
 end
