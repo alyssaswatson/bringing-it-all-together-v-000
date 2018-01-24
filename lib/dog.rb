@@ -33,6 +33,6 @@ class Dog
     id = dog_array[0]
     name = dog_array[1]
     breed = dog_array[2]
-    Dog.new(id, name, breed)
+    sekf.new(id, name, breed)
   end
 end
